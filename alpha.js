@@ -1,3 +1,28 @@
+/**----------( Created By Alpha Botzz )----------
+--------------------------------------------------------------------------
+Di Kasih Sc Gratis, No Pw + Free Apikey
+Apa Susah Nya Pencet Tombol Subscribe
+----------------------( TQ TQ )------------------------------------
+@Alpha Botz ( CREATOR )
+@DcodeDenpa ( SC ORI )
+@KurrXD ( RECODE )
+@ZeksApi ( MAKER )
+@YuzApi ( RANDOM )
+@ZeroYt7 ( ASUPAN )
+@HunterApi ( TEKA TEKI )
+@Subscriber Alpha Botz
+@PenyediaApikey ( Rest Api Bot )
+@Creator Bot ( Buat Nyolong Case 🗿 )
+-------------------------------------------------------
+✓ Denis ( BASE ORI )  : 
+https://youtube.com/c/DcodeDenpa
+-------------------------------------------------------
+✓ Alpha Botz ( RECODE ) : 
+https://youtube.com/c/LEX4YOUU
+-------------------------------------------------------
+» Help Me 1k Subs Alpha Botz
+--------------------------------------------------------------**/
+
 const
 	{
 	    WAConnection: _WAConnection,
@@ -782,7 +807,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} WIB - ${week}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/62888435569/628884357769`}}})
+			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} WIB - ${week}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6281220670449`}}})
 		}
 		const simir = (teks) => {
 			alpha.sendMessage(from, teks, text, { quoted:ftex })
@@ -1632,7 +1657,7 @@ break
 case 'makermenu':
 stamtus =`❏ 「 \`\`\`MENU MAKER\`\`\` 」
 ────────────────────
-_contoh: ${prefix}tahta Ahyan
+_contoh: ${prefix}tahta Lex4you_
 ────────────────────
 ◈ ${prefix}nulis 「 text 」
 ◈ ${prefix}tahta 「 text 」
@@ -1741,7 +1766,7 @@ break
  
  listMsg = {
  buttonText: 'LIST ASUPAN',
- footerText: 'Yanz Botz✓',
+ footerText: 'Alpha Botz✓',
  description: `Hai kak☺️ Silahkan pilih menu asupan disini,Gunakan Dengan Bijak Ya kakk`,
  sections: [
                      {
@@ -1895,7 +1920,7 @@ break
 					break		
 					case 'transformer': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yanz Botz Whatsapp`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Alpha Botz Whatsapp`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/transformer?text=${teksnya}&apikey=xnxx`)
@@ -2971,7 +2996,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©Yanz Botz_*',
+    footerText: '*_©Alpha Botzz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2991,7 +3016,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©Yanz Botz_*',
+    footerText: '*_©Alpha Botzz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3022,12 +3047,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer Yanz Botz Whatsapp`,
+"displayName": `Developer Alpha Botz Whatsapp`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
-"displayName": `Developer Yanz Botz Whatsapp`,
+"displayName": `Developer Alpha Botz Whatsapp`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3067,7 +3092,9 @@ case 'scbot':
 anu = `──────────────────
 NOTE : _DILARANG JUAL SC BOT_
 ──────────────────
-KATA AHYAN -_-
+_BASE : DCODE DENPA_
+_SC ORI : Alpha Botz_
+_KANG RECODE : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
 {buttonId:`iklan`, buttonText: {displayText: 'Iklan️'}, type: 1},
@@ -3086,7 +3113,7 @@ donasi =`╭─────────────────
 │╭────────────────
 │⬡» *PULSA : ${pulsa}*   
 │⬡» *DANA : ${dana}*    
-│⬡» *GOPAY : ${ovo}*      
+│⬡» *OVO : ${ovo}*      
 │└────────────────
 └─────────────────`
 buttons = [
